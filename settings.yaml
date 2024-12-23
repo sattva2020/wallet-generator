@@ -1,0 +1,9 @@
+PASSWORD_PHANTOM: "Password_PHANTOM"      # Password for Phantom wallet
+PASSWORD_METAMASK: "Password_METAMASK"    # Password for MetaMask wallet
+PASSWORD_WALLET: ""                       # Password for all wallets; leave empty to use random passwords
+DISPLAY_PASSWORD: true                    # Set to true to display the wallet password in the output
+                                          # If DISPLAY_PASSWORD is set to true, the password will be shown in full.
+                                          # If DISPLAY_PASSWORD is set to false, the password will be masked (e.g., 12****78).
+EXPORT_FORMAT: "xlsx"                     # Export format (xlsx only for now); possible values: "xlsx", "csv", "json"
+RANDOM_PASSWORDS: true                    # Generate random passwords; set to false to use PASSWORD_WALLET
+PASSWORD_LENGTH: 16                       # Length of generated passwords
