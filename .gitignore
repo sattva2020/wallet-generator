@@ -123,6 +123,6 @@ dmypy.json
 # Wallet generator specific
 wallets.xlsx
 wallets.json
-test.beat
+test.bat
 run.txt
 
